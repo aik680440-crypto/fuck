@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Web Tools</title>
+	<meta name="description" content="Free online tools: EMI calculator, To-do, Image compressor, Password generator"/>
+	<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+	<header class="site-header">
+		<h1>Web Tools</h1>
+		<nav aria-label="Primary">
+			<a href="#/emi" id="nav-emi">EMI Calculator</a>
+			<a href="#/todo" id="nav-todo">To-do</a>
+			<a href="#/image" id="nav-image">Image Compressor</a>
+			<a href="#/password" id="nav-password">Password</a>
+		</nav>
+		<button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+	</header>
+	<main id="app" tabindex="-1"></main>
+	<footer class="site-footer">
+		<p>© <span id="year"></span> Web Tools</p>
+	</footer>
+	<script type="module" src="app.js"></script>
+</body>
+</html>
+
